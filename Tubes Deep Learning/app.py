@@ -25,6 +25,7 @@ LABEL_COLS = [
     "hood"
 ]
 
+
 LABEL_NAMES = {
     "front_left": "Pintu Depan Kiri",
     "front_right": "Pintu Depan Kanan",
@@ -460,8 +461,7 @@ with tab2:
 
     st.markdown("### 📊 Hasil Uji Robustness Model")
     st.markdown(
-        "Berikut rangkuman performa model pada **test set**. "
-        "Nilai metrik dapat diisi sesuai hasil evaluasi akhir dari notebook training."
+        "Pada tab ini ditampilkan hasil evaluasi model secara keseluruhan dan per label, menggunakan dataset **test**."
     )
 
     st.divider()
